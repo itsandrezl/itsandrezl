@@ -9,11 +9,11 @@
 ---
 
 ### 🚀 Sobre mim
-* 🔭 Atualmente trabalhando em: **Projetos de Business Intelligence e Modelagem de Banco de Dados**
-* 👯 Buscando colaborar em: **Projetos de análise de dados e modelagem SQL**
-* 🌱 Aprendendo: **Técnicas avançadas de Data Science e estruturação de dados para BI**
-* 💬 Pergunte-me sobre: **SQL, Qlik Sense, Power BI e estruturação de Dashboards**
-* 📫 Como me encontrar: [2006afsr@gmail.com](mailto:2006afsr@gmail.com)
+* 🔭 I’m currently working on: **Projetos de Business Intelligence e Modelagem de Banco de Dados**
+* 👯 I’m looking to collaborate on: **Projetos de análise de dados e modelagem SQL**
+* 🌱 I’m currently learning: **Técnicas avançadas de Data Science e estruturação de dados para BI**
+* 💬 Ask me about: **SQL, Qlik Sense, Python, Excel, Power BI e estruturação de Dashboards**
+* 📫 How to reach me: [2006afsr@gmail.com](mailto:2006afsr@gmail.com)
 * ⚡ Fun fact: Além de analisar dados, gosto de acompanhar o mercado de investimentos (FIIs/Ações) e jogar um futevôlei nas horas vagas.
 
 ---
