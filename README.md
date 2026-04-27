@@ -3,7 +3,7 @@
 ### Bridging the gap between Software Engineering and Data Analytics to build robust, data-driven solutions.
 
 <p align="center">
-  <img src="./data science.jfif" width="400" style="border-radius: 50%;" alt="André Felipe">
+  <img src="./data science.jfif" width="800" style="border-radius: 50%;" alt="André Felipe">
 </p>
 
 ---
