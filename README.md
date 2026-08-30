@@ -38,9 +38,9 @@
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+### Tecnologias e Ferramentas
 
-#### 📊 Dados & BI
+#### Dados & BI
 
 <p left="0">
   <img src="https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -49,7 +49,7 @@
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" />
 </p>
 
-#### 💻 Programação & Backend
+#### Programação & Backend
 
 <p left="0">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
@@ -58,7 +58,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
-#### 🔧 Infra & Outros
+#### Infra & Outros
 
 <p left="0">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
@@ -68,7 +68,7 @@
 
 ---
 
-### 🔗 Conecte-se comigo:
+### Conecte-se comigo:
 
 <p left="0">
 <a href="https://linkedin.com/in/itsandrezl" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
