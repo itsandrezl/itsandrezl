@@ -1,18 +1,18 @@
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="André Felipe — Data Analyst · Data Engineer · Business Intelligence · Brazil">
+  <img src="assets/header-light.svg" alt="André Felipe — Data Analyst & Data Engineer · Brazil">
 </picture>
 </div>
 
 <br>
 
-## Minha Stack
+## My Stack
 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Stack: Python, TypeScript, JavaScript, Oracle, PostgreSQL, MySQL, Databricks, Power BI, Qlik Sense, Docker, Airflow, Git, VS Code, ADVPL, Protheus, Logix"/>
+  <img src="assets/stack-light.svg" alt="Stack: Python, TypeScript, JavaScript, Oracle, PostgreSQL, MySQL, Databricks, Power BI, Qlik Sense, Tableau, NPrinting, AWS, Azure Data Factory, Azure, Azure DevOps, Airflow, Docker, Git, VS Code, ADVPL, Protheus, Logix, Google Sheets"/>
 </picture>
 </div>
 
