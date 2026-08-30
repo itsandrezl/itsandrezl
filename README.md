@@ -37,6 +37,6 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal" alt="Quotes">
 </picture>
 <br><br>
-[**LinkedIn**](https://www.linkedin.com/in/andrefelipedsr) &nbsp;·&nbsp; [**GitHub**](https://github.com/andrefelipedsr)
+[**LinkedIn**](https://www.linkedin.com/in/itsandrezl) &nbsp;·&nbsp; [**GitHub**](https://github.com/itsandrezl) &nbsp;·&nbsp; [**Portfolio**](https://itsandrezl.github.io) &nbsp;·&nbsp; [**Email**](mailto:2006afsr@gmail.com)
 <br>
 </div>
