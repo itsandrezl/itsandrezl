@@ -7,6 +7,17 @@
 
 <br>
 
+## About Me
+
+- 🔭 Currently working on: Business Intelligence apps and ETL pipelines in Qlik Sense
+- 👯 Looking to collaborate on: data analysis, SQL and data modeling projects
+- 🌱 Currently learning: cloud data engineering — Databricks, Azure Data Factory, Airflow
+- 💬 Ask me about: SQL, Qlik Sense, Python, Power BI, dashboard design
+- 📫 Reach me at: [2006afsr@gmail.com](mailto:2006afsr@gmail.com)
+- ⚡ Fun fact: outside of data, I follow the stock market (FIIs/stocks) and play footvolley
+
+<br>
+
 ## My Stack
 
 <div align="center">
