@@ -9,7 +9,7 @@
 
 ## About Me
 
-- Currently working on: Business Intelligence apps and ETL pipelines in Qlik Sense
+- Currently working on: Business Intelligence apps and ETL pipelines in Qlik Sense, Power BI and Tableau
 - Looking to collaborate on: data analysis, SQL and data modeling projects
 - Currently learning: cloud data engineering — Databricks, Azure Data Factory, Airflow
 - Ask me about: SQL, Qlik Sense, Python, Power BI, dashboard design
