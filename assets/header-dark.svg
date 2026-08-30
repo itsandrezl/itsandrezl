@@ -27,7 +27,7 @@
 <path class="strkm corner" d="M 28 174 L 28 188 L 46 188"/>
 <path class="strkm corner" d="M 812 174 L 812 188 L 794 188"/>
 
-<text class="ink name" x="40" y="86">GABRIEL CHIARELLI</text>
+<text class="ink name" x="40" y="86">ANDRÉ FELIPE</text>
 <rect class="ink cur" x="500" y="62" width="16" height="30"/>
 
 <line class="strk rule" x1="40" y1="112" x2="800" y2="112"/>
@@ -41,6 +41,6 @@
   <line x1="800" y1="112" x2="800" y2="120"/>
 </g>
 
-<text class="ink sub"  x="40" y="146">BACKEND  ·  INTEGRATIONS  ·  SYSTEM ARCHITECTURE</text>
+<text class="ink sub"  x="40" y="146">DATA  ·  INTEGRATIONS  ·  DATA ARCHITECTURE</text>
 <text class="mut meta" x="40" y="170">BRAZIL</text>
 </svg>
