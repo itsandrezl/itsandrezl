@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Gera um GIF monocromatico de terminal digitando sozinho.
-Tudo e desenhado em 2x e reduzido no fim (antialias)."""
+"""Generates a monochrome GIF of a terminal typing itself.
+Everything is drawn at 2x and downscaled at the end (antialiasing)."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
 S       = 2                                  # supersampling
-W, H    = 820, 430                           # tamanho final exibido
+W, H    = 820, 430                           # final displayed size
 BG, CHROME, LINE = (10,10,10), (23,23,23), (56,56,56)
 FG, MID, DIM, LEAD = (243,243,243), (170,170,170), (125,125,125), (66,66,66)
 MONO  = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
@@ -15,17 +15,17 @@ f_body  = ImageFont.truetype(MONO,  24*S)
 f_bold  = ImageFont.truetype(MONOB, 24*S)
 f_title = ImageFont.truetype(MONO,  16*S)
 
-ADV     = f_body.getlength("M")               # avanco de 1 caractere (espaco 2x)
+ADV     = f_body.getlength("M")               # 1-character advance (2x space)
 PADX, CHROME_H, TOP, LH = 40, 52, 34, 34
-COL = 18                                      # coluna onde todo valor comeca
+COL = 18                                      # column where every value starts
 
 def row(label, value):
-    """Monta 'label ....  value' com o pontilhado calculado, nao chutado."""
+    """Builds 'label ....  value' with the dot padding computed, not guessed."""
     return label, " " + "." * (COL - len(label) - 3) + "  ", value
 
 SCRIPT = [
     ("cmd", "whoami", None),
-    ("out", ("andre felipe", "", " — data analyst & engineer")),
+    ("out", ("andre felipe", "", " — data analyst & data engineer")),
     ("gap", "", None),
     ("cmd", "cat now.txt", None),
     ("out", row("building", "sql queries · power bi · data pipelines")),
