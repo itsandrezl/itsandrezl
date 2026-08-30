@@ -17,7 +17,6 @@
 - ⚡ Fun fact: outside of data, I follow the stock market (FIIs/stocks) and play footvolley
 
 <br>
----
 
 ### Tecnologias e Ferramentas
 
