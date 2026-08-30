@@ -1,21 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Faixa de stacks em linhas categorizadas. Logos reais (simple-icons), monocromatico,
-auto-hospedado. Entradas sem logo disponivel caem para chip de texto."""
+"""Faixa de stacks em linhas categorizadas para André Felipe (Data & BI)."""
 import os
 from simpleicons.all import icons
 
-OUT  = "."
+OUT  = "assets"
 MONO = "ui-monospace,'SF Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,monospace"
 
 ROWS = [
-    ("LANGUAGES", [("python","Python"), ("typescript","TypeScript"),
-                   ("javascript","JavaScript"), ("openjdk","Java"), ("lua","Lua")]),
-    ("BACKEND",   [("nodedotjs","Node.js"), ("spring","Spring"), ("docker","Docker"),
-                   ("postman","Postman"), ("git","Git")]),
-    ("FRONTEND",  [("react","React"), ("tailwindcss","Tailwind"),
-                   ("html5","HTML5"), ("css3","CSS3")]),
-    ("DATA",      [("oracle","Oracle"), ("postgresql","PostgreSQL"), ("mysql","MySQL")]),
-    ("ORIGIN",    [(None,"ADVPL"), (None,"PROTHEUS")]),
+    ("LANGUAGES", [("python","Python"), ("typescript","TypeScript"), ("javascript","JavaScript")]),
+    ("DATA & BI", [("oracle","Oracle"), ("postgresql","PostgreSQL"), ("mysql","MySQL"), 
+                   ("databricks","Databricks"), (None,"Power BI"), (None,"Qlik Sense")]),
+    ("ENGINEERING",[("docker","Docker"), ("apacheairflow","Airflow"), ("git","Git"), ("visualstudiocode","VS Code")]),
+    ("ORIGIN/ERP",[ (None,"ADVPL"), (None,"PROTHEUS"), (None,"LOGIX")]),
 ]
 
 W, X0, STEP, ICON, RH, TOP = 840, 172, 118, 28, 68, 40
@@ -29,12 +25,12 @@ def build(ink, mut):
         for c, (slug, label) in enumerate(items):
             cx = X0 + c * STEP
             css.append("  .n%d { animation-delay: %.2fs; }" % (n, 0.06 * n))
-            if slug:                               # logo + legenda abaixo
+            if slug and slug in icons:             # logo + legenda abaixo
                 g = ('    <path class="lg" transform="translate(%.1f,%d) scale(%.4f)" d="%s"/>\n'
                      '    <text class="cap" x="%.1f" y="%d" text-anchor="middle">%s</text>'
                      % (cx - ICON / 2, y, ICON / 24.0, icons[slug].path,
                         cx, y + ICON + 17, label))
-            else:                                  # sem logo -> chip com o texto DENTRO
+            else:                                  # sem logo no simple-icons -> chip com texto DENTRO
                 w = 11 * len(label) + 22
                 g = ('    <rect class="chip" x="%.1f" y="%d" width="%d" height="%d" rx="3"/>\n'
                      '    <text class="cap" x="%.1f" y="%.1f" text-anchor="middle">%s</text>'
@@ -56,6 +52,7 @@ def build(ink, mut):
 </svg>
 ''' % (W, H, W, H, ink, ink, mut, MONO, mut, MONO, "\n".join(css), "\n".join(body))
 
+os.makedirs(OUT, exist_ok=True)
 for theme, ink, mut in [("light", "#0d1117", "#6e7781"), ("dark", "#e6edf3", "#8b949e")]:
     p = os.path.join(OUT, "stack-%s.svg" % theme)
     open(p, "w", encoding="utf-8").write(build(ink, mut))
