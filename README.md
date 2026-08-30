@@ -36,7 +36,6 @@
   <img src="https://img.shields.io/badge/SQL-F5EFE0?style=for-the-badge&logo=mysql&logoColor=black" />
   <img src="https://img.shields.io/badge/PostgreSQL-F5EFE0?style=for-the-badge&logo=postgresql&logoColor=black" />
   <img src="https://img.shields.io/badge/Oracle-F5EFE0?style=for-the-badge&logo=oracle&logoColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-F5EFE0?style=for-the-badge&logo=mysql&logoColor=black" />
 </p>
 
 #### Languages
