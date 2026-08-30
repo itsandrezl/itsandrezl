@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+"""Header banner for André Felipe (Data Analyst & Data Engineer)."""
 import os
 
 OUT = "assets"
 MONO = "ui-monospace,'SF Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,monospace"
 
-HEADER = u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="André Felipe — Data Analyst / Data Engineer">
+HEADER = u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-label="André Felipe — Data Analyst &amp; Data Engineer">
 <style>
   .ink   {{ fill: {ink}; }}
   .mut   {{ fill: {mut}; }}
@@ -26,13 +27,19 @@ HEADER = u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width
   @keyframes draw  {{ to {{ stroke-dashoffset: 0; }} }}
   @keyframes blink {{ 0%,49%{{opacity:1}} 50%,100%{{opacity:0}} }}
 </style>
+
+<!-- frame corners -->
 <path class="strkm corner" d="M 28 26 L 28 12 L 46 12"/>
 <path class="strkm corner" d="M 812 26 L 812 12 L 794 12"/>
 <path class="strkm corner" d="M 28 174 L 28 188 L 46 188"/>
 <path class="strkm corner" d="M 812 174 L 812 188 L 794 188"/>
+
 <text class="ink name" x="40" y="86">ANDRÉ FELIPE</text>
-<rect class="ink cur" x="430" y="62" width="16" height="30"/>
+<rect class="ink cur" x="500" y="62" width="16" height="30"/>
+
 <line class="strk rule" x1="40" y1="112" x2="800" y2="112"/>
+
+<!-- ruler ticks under the line -->
 <g class="strkm tick">
   <line x1="40"  y1="112" x2="40"  y2="120"/>
   <line x1="230" y1="112" x2="230" y2="117"/>
@@ -40,6 +47,7 @@ HEADER = u'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width
   <line x1="610" y1="112" x2="610" y2="117"/>
   <line x1="800" y1="112" x2="800" y2="120"/>
 </g>
+
 <text class="ink sub"  x="40" y="146">DATA ANALYST  ·  DATA ENGINEER  ·  BUSINESS INTELLIGENCE</text>
 <text class="mut meta" x="40" y="170">BRAZIL</text>
 </svg>
