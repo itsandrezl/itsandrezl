@@ -17,25 +17,6 @@
 - ⚡ Fun fact: outside of data, I follow the stock market (FIIs/stocks) and play footvolley
 
 <br>
-
-# Hi 👋, I'm André Felipe
-### Bridging the gap between Software Engineering and Data Analytics to build robust, data-driven solutions.
-
-<p align="center">
-  <img src="./andre.logotype.png" width="800" style="border-radius: 50%;" alt="André Felipe">
-</p>
-
----
-
-### 🚀 Sobre mim
-
-* 🔭 I'm currently working on: **Projetos de Business Intelligence e Modelagem de Banco de Dados**
-* 👯 I'm looking to collaborate on: **Projetos de análise de dados e modelagem SQL**
-* 🌱 I'm currently learning: **Técnicas avançadas de Data Science e estruturação de dados para BI**
-* 💬 Ask me about: **SQL, Qlik Sense, Python, Excel, Power BI e estruturação de Dashboards**
-* 📫 How to reach me: [2006afsr@gmail.com](mailto:2006afsr@gmail.com)
-* ⚡ Fun fact: Além de analisar dados, gosto de acompanhar o mercado de investimentos (FIIs/Ações) e jogar um futevôlei nas horas vagas.
-
 ---
 
 ### Tecnologias e Ferramentas
