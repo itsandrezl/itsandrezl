@@ -8,29 +8,29 @@ S       = 2                                  # supersampling
 W, H    = 820, 430                           # tamanho final exibido
 BG, CHROME, LINE = (10,10,10), (23,23,23), (56,56,56)
 FG, MID, DIM, LEAD = (243,243,243), (170,170,170), (125,125,125), (66,66,66)
-
 MONO  = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
 MONOB = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
+
 f_body  = ImageFont.truetype(MONO,  24*S)
 f_bold  = ImageFont.truetype(MONOB, 24*S)
 f_title = ImageFont.truetype(MONO,  16*S)
+
 ADV     = f_body.getlength("M")               # avanco de 1 caractere (espaco 2x)
-
 PADX, CHROME_H, TOP, LH = 40, 52, 34, 34
-
 COL = 18                                      # coluna onde todo valor comeca
+
 def row(label, value):
     """Monta 'label ....  value' com o pontilhado calculado, nao chutado."""
     return label, " " + "." * (COL - len(label) - 3) + "  ", value
 
 SCRIPT = [
     ("cmd", "whoami", None),
-    ("out", ("gabriel chiarelli", "", " — backend developer")),
+    ("out", ("andre felipe", "", " — data analyst & engineer")),
     ("gap", "", None),
     ("cmd", "cat now.txt", None),
-    ("out", row("building", "apis & system integrations")),
-    ("out", row("learning", "node · typescript · system design")),
-    ("out", row("outside",  "games · coffee · tech articles")),
+    ("out", row("building", "sql queries · power bi · data pipelines")),
+    ("out", row("learning", "python · azure data factory · databricks")),
+    ("out", row("outside",  "weightlifting · footvolley · tech reading")),
     ("gap", "", None),
 ]
 
@@ -43,9 +43,8 @@ def draw_frame(state, cursor_on):
     for i in range(3):
         cx, cy, r = (24+i*22)*S, (CHROME_H//2)*S, 5*S
         d.ellipse([cx-r, cy-r, cx+r, cy+r], outline=DIM, width=S)
-    t = "gabriel@dev — zsh"
+    t = "andre@data-dev — zsh"
     d.text(((W*S - f_title.getlength(t))/2, (CHROME_H/2 - 11)*S), t, font=f_title, fill=DIM)
-
     y = (CHROME_H + TOP) * S
     for kind, payload in state:
         x = PADX * S
@@ -76,13 +75,12 @@ for kind, payload, *_ in SCRIPT:
     else:
         built.append((kind, payload if kind == "out" else ""))
         push([("prompt", "")], False, 420 if kind == "out" else 180)
+
 for on, ms in [(True, 650), (False, 650)]*3 + [(True, 2200)]:
     push([("prompt", "")], on, ms)
 
 frames = [f.convert("P", palette=Image.ADAPTIVE, colors=24) for f in frames]
-frames[0].save("/tmp/build/assets/terminal.gif", save_all=True, append_images=frames[1:],
+frames[0].save("assets/terminal.gif", save_all=True, append_images=frames[1:],
                duration=delays, loop=0, optimize=True, disposal=1)
 print("%d frames · %.0f KB · %dx%d" % (len(frames),
-      os.path.getsize("/tmp/build/assets/terminal.gif")/1024, W, H))
-draw_frame(built + [("prompt", "")], True).save(
-    "/sessions/serene-optimistic-galileo/mnt/outputs/_preview_gif.png")
+      os.path.getsize("assets/terminal.gif")/1024, W, H))
